@@ -1,0 +1,17 @@
+{
+    "development" : {
+        "database" : "urlshortener",
+        "username" : "root",
+        "password" : "mysql",
+        "dialectInformation" : {
+            "dialect" : "mysql",
+            "host" : "localhost"
+        },
+        "pool" : {
+            "max" : 3,
+            "min" : 0,
+            "acquire": 20000,
+            "idle" : 10000
+        }
+    }
+}
